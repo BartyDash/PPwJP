@@ -12,5 +12,6 @@ else:
 
 uzysk_rabat = cena_zakupow * rabat
 cena_zakupow_po_rabacie = cena_zakupow - uzysk_rabat
-print(f"Rabat: {uzysk_rabat:.2f}zł")
+# f-strings
+print(f"Rabat: {uzysk_rabat:.2f}zł")    #round() też da radę
 print(f"Cena zakupów po rabacie: {cena_zakupow_po_rabacie:.2f}zł")
