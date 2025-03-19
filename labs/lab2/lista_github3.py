@@ -8,5 +8,3 @@ elif day.lower() in ['sobota', 'niedziela']:
     print("Weekend")
 else:
     print("Nieprawidłowa wartość")
-
-# zrobić z match - case
